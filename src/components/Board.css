@@ -1,0 +1,10 @@
+.status {
+	font-size: 40px;
+	font-weight: 500;
+}
+.board-grid {
+	display: inline-grid;
+	grid-template-rows: repeat(3, 100px);
+	grid-template-columns: repeat(3, 100px);
+	overflow: hidden;
+}
